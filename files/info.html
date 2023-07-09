@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css"> -->
+    <script src="./script.js"></script>
+    <style>
+        /* .body
+{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    
+} */
+header{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.slogan{
+    margin: auto;
+    padding: 5px;
+    margin-top: 25px;
+    font-size:25px;
+    text-align: center;
+    margin-top: 30px;
+
+}
+.img {
+
+    width: 80px;
+    height: 80px;
+    margin:10px;
+}
+.name{
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    margin: 10px;
+    padding: 8px;
+}
+
+*
+{
+    margin: 0px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    background-color: #c8c8ef;
+}
+.nav1{
+    display:flex;
+    justify-content: space-around;
+ 
+   padding:10px;
+}
+
+.home img{
+    margin:20px;
+    
+}
+#search1
+{
+    height: 30px;
+    width: 130px;
+    position: relative;
+    border: none;
+}
+#searchlogo
+{
+    width: 10px;
+    margin-left: 8px;
+    height: 10px;
+}
+
+.home-content{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 180%;
+}
+
+#t1{
+    color:red;
+    margin-left:115px;
+    font-weight: 700;
+    
+}
+
+#t2{
+    color:#0039ff;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+#t3{
+    color:red;
+    margin-left:85px;
+    font-weight: 700;
+}
+
+.search{
+    margin-right:20px;
+}
+.links
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.links a
+{   
+   text-decoration: none;
+   color:rgba(255, 255, 255, 0.6);
+   font-size: 11px;
+   font-weight: 800;
+   margin: 5px;
+   text-transform: uppercase;
+   font-family: 'Roboto', sans-serif;
+}
+.home
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.smallfont
+{
+    color: red;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.mediumfont
+{
+    color: red;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+
+}
+.largefont
+{
+    color:  #59b7cd;
+    font-size: 150%;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.nav2{
+    height:52px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.link2 #h{
+    color:orange;
+}
+.link2 #h:hover{
+    color:white;
+}
+
+.link2 a:hover{
+    height:100%;
+    width:15px;
+}
+.link2 a{
+    color:white;
+    text-decoration: none;
+    margin-right:14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+#Head
+{
+    color: #59b7cd;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+    text-align: center;
+}
+.home1{
+    height:20px;
+    display: inline-block;
+}
+ 
+#l10
+{
+    list-style: none;
+    margin-left: 70px;
+}
+#l10 a
+{
+    margin-right: 15px;
+    text-decoration: none;
+    color:white;
+}
+.HostelDetails
+{
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.underline
+{
+    border: #59b7cd;
+    width: 120px;
+    margin: auto;
+}
+#bg
+{
+    padding: 30px;
+}
+.homeContent
+{
+    width: 70%;
+    margin: auto;
+    color: #505050;
+}
+.h3
+{
+    background-color:#285762;
+    margin: 10px;
+    margin-top: 30px;
+    padding: 13px;
+    color: white;
+   
+}
+.Hostel{
+    padding: 10px;
+    margin: 10px;
+}
+.table
+{
+    border: solid #444343 thin ;
+    padding: 10px;
+    /* margin: 10px; */
+    height: 130px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#Book
+{
+    margin: auto;
+    margin-top: 30px;
+    padding: 13px;
+    width: 140px;
+    /* background-color: #1F51FF; */
+    color: white;
+    font-size: large;
+    border: none;
+    border-radius: 10px;
+    display: block;
+   
+}
+#Book a{
+    color: white;
+    text-decoration: none;
+}
+#footer
+{
+    /* background-color: #1F51FF; */
+    margin-top: 30px;
+    padding: 10px;
+}
+.child1
+{
+    width: 70%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.btn-primary{
+    background-color:#081126;
+}
+.card{
+    border: solid white; 
+    border-radius: 10px;
+    border-width: 1px;
+    width: 350px;
+    height: 200px;
+    /* margin: 15px; */
+    margin-right: 25px;
+}
+.cardsection{
+    display: flex;
+    justify-content: center;
+    /* margin: 20px; */
+    padding: 10px;
+    text-align: center;
+
+}
+.cardsection img{
+    width: 60px;
+    /* border: solid; */
+    margin-top: 10px;
+}
+.content{
+    margin: 8px;
+    padding: 10px;
+}
+.title{
+    text-align: center;
+    margin: 8px;
+    font-size: 20px;
+    /* columns:; */
+    color: blanchedalmond;
+    font-weight: 700;
+    display: block;
+    margin-bottom:30px ;
+}
+.gobtn{
+    width:110px;
+    height: 30px;
+    border-radius: 8px;
+    border-bottom-color: white;
+    border-right-color:rgba(255, 255, 255, 0.743);
+    border-top-color:rgb(57, 57, 57);
+    border-left-color:rgb(56, 56, 56);
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    margin: auto;
+    display: block;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    margin-bottom: 15px;
+    height: 45px;
+}
+.gobtn:hover{
+    cursor: pointer;
+    background-color: #444343;
+}
+.gj{
+    width: 45px;
+}
+    </style>
+</head>
+
+<body class="body">
+    <header>
+        <img src="images/pict.png" class="img" alt="">
+        <div class="name">Pict Hostel</div>
+
+    </header>
+    <div style="font-size: 30px;margin-top: 20px ">
+        <marquee behavior="alttern" direction="right">Live your Best hostel Moments!!</marquee>
+    </div>
+    <div id="bg">
+        <h3 class="HostelDetails">
+            HOSTEL DETAILS
+        </h3>
+        <div class="underline"></div>
+        <div class="homeContent">
+            <h3 class="h3" id="GirlScrl">
+                Girls Hostel
+            </h3>
+            <div class="Hostel" id="GirlsHostel">
+                <p>Total accommodation: <span id="numberG">106</span>Rooms (with double occupancy)</p>
+                <p>Allotment will be as follows:</p>
+                <table style="width: 100%; " class="table">
+                    <tbody>
+                        <tr>
+                            <td class="td">
+
+                                FE/SE(Direct)/ME-I
+                            </td>
+                            <td class="td">
+                                92 students
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="td">
+
+                                SE
+                            </td>
+                            <td class="td">
+                                60 students
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td">
+
+                                TE
+                            </td>
+                            <td class="td">
+                                60 students
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+            <h3 class="h3" id="BoysScrl">
+                Boys Hostel
+            </h3>
+            <div class="Hostel" id="BoysHostel">
+                <p id="accommodation">Total accommodation: <span id="numberB">67</span> Rooms (with double occupancy)
+                </p>
+                <p>Allotment will be as follows:</p>
+                <table style="width: 100%; " class="table">
+                    <tbody>
+                        <tr>
+                            <td class="td">
+
+                                FE/SE(Direct)/ME-I
+                            </td>
+                            <td class="td">
+                                66 students
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td class="td">
+
+                                SE
+                            </td>
+                            <td class="td">
+                                34 students
+                            </td>
+
+                        </tr>
+
+                        <tr>
+                            <td class="td">
+
+                                TE
+                            </td>
+                            <td class="td">
+                                34 students
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+     <div class="cardsection">
+        <div class="card">
+            <span class="title">Internate Facility</span>
+            <p class="content">
+                100 GB data per month with the speed of 1MB/Sec
+            </p>
+        </div>
+        <div class="card">
+            <span class="title"> Hostel Mess And Canteen</span>
+            <p class="content">
+                Time - 8am to 9pm <br>
+                Varied Menu Items <br>
+                Morning  Breakfast and Evening Snaks available <br>
+            </p>
+        </div>
+
+    </div>
+    <div class="cardsection">
+        <div class="card">
+            <span class="title"> Water Facilities</span>
+            <p class="content">
+                24/7 Water Supply <br>
+            </p>
+        </div>
+        <div class="card">
+            <span class="title">Medical Facilities</span>
+            <p class="content">
+                Sick Bay Rooms <br>
+                First Aid Box <br>
+                 Medical Consultant 
+             </p>
+           
+        </div>
+    </div> -->
+</body>
+
+</html>
