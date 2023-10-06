@@ -1,1 +1,1 @@
-# Hostel-Management-System
+# CloudBeds Aminity
